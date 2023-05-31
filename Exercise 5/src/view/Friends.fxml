@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.friendController">
+   <children>
+      <ImageView fx:id="lo" fitHeight="148.0" fitWidth="148.0" layoutX="349.0" layoutY="32.0">
+         <image>
+            <Image url="@../images/Carlo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ri" fitHeight="148.0" fitWidth="148.0" layoutX="558.0" layoutY="32.0">
+         <image>
+            <Image url="@../images/Rica.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ter" fitHeight="148.0" fitWidth="148.0" layoutX="128.0" layoutY="32.0">
+         <image>
+            <Image url="@../images/Terrence.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="terBtn" layoutX="144.0" layoutY="185.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="111.0" style="-fx-background-color: black; -fx-background-color: ;" text="Terrence" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="jay" fitHeight="148.0" fitWidth="148.0" layoutX="460.0" layoutY="259.0">
+         <image>
+            <Image url="@../images/Arjay.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="loBtn" layoutX="373.0" layoutY="185.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="101.0" style="-fx-background-color: black;" text="Carlo" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="cjBtn" layoutX="204.0" layoutY="412.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="111.0" style="-fx-background-color: black;" text="Christine" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="riBtn" layoutX="582.0" layoutY="185.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="101.0" style="-fx-background-color: black;" text="Rica" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="jayBtn" layoutX="489.0" layoutY="412.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="34.0" prefWidth="90.0" style="-fx-background-color: black;" text="Jay" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="148.0" fitWidth="148.0" layoutX="186.0" layoutY="259.0">
+         <image>
+            <Image url="@../images/Christine.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
